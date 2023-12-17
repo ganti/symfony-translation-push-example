@@ -42,6 +42,15 @@
             "src/Kernel.php"
         ]
     },
+    "symfony/loco-translation-provider": {
+        "version": "6.4",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "5.3",
+            "ref": "eb6413fa65d3aae92d79b86ad67c2830e4441893"
+        }
+    },
     "symfony/routing": {
         "version": "6.4",
         "recipe": {
@@ -53,6 +62,19 @@
         "files": [
             "config/packages/routing.yaml",
             "config/routes.yaml"
+        ]
+    },
+    "symfony/translation": {
+        "version": "6.4",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "6.3",
+            "ref": "64fe617084223633e1dedf9112935d8c95410d3e"
+        },
+        "files": [
+            "config/packages/translation.yaml",
+            "translations/.gitignore"
         ]
     }
 }
